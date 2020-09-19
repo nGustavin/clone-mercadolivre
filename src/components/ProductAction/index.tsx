@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   Container,
@@ -16,7 +16,7 @@ import {
   Button,
   Benefits,
   ShieldIcon,
-} from "./styles";
+} from './styles';
 
 const ProductAction: React.FC = () => {
   return (
@@ -37,15 +37,15 @@ const ProductAction: React.FC = () => {
         <InstallmentsInfo>em 3x de R$ 33,33</InstallmentsInfo>
       </PriceCard>
 
-      <StockStatus>Estoque Disponivel</StockStatus>
+      <StockStatus>Estoque Disponível</StockStatus>
 
       <MethodCard>
         <CheckIcon />
         <div>
-          <span className="title">Frete Gratis</span>
-          <span className="details">Beneficio Lorem Ipsom</span>
+          <span className="title">Frete Grátis</span>
+          <span className="details">Benefício Lorem Ipsom</span>
           <a href="#" className="more">
-            Ver mais opcoes
+            Ver mais opções
           </a>
         </div>
       </MethodCard>
@@ -58,7 +58,7 @@ const ProductAction: React.FC = () => {
       <Benefits>
         <li>
           <ShieldIcon />
-          <p>Recebra o produto que esta esperando ou seu dinheiro de volta</p>
+          <p>Receba o produto que esta esperando ou seu dinheiro de volta</p>
         </li>
       </Benefits>
     </Container>

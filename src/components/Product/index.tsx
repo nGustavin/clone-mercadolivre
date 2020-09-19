@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import tshirtImage from "../../assets/tshirt.png";
-import ProductAction from "../ProductAction";
-import SellerInfo from "../SellerInfo";
+import tshirtImage from '../../assets/tshirt.png';
+import ProductAction from '../ProductAction';
+import SellerInfo from '../SellerInfo';
 
 import {
   Container,
@@ -12,7 +12,7 @@ import {
   Gallery,
   Section,
   Description,
-} from "./styles";
+} from './styles';
 
 const Product: React.FC = () => {
   return (
@@ -64,7 +64,7 @@ const WarrantySection = () => (
 
 const Info = () => (
   <Description>
-    <h2>Descricao</h2>
+    <h2>Descrição</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper augue
       eget rhoncus tincidunt. Proin tincidunt purus eu porttitor consectetur.

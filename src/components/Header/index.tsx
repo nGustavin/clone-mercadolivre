@@ -37,7 +37,7 @@ const Header: React.FC = () => {
         <Category>
           <a href="#">Categorias</a>
           <a href="#">Ofertas do dia</a>
-          <a href="#">Historico</a>
+          <a href="#">Histórico</a>
           <a href="#"> Supermercado </a>
           <a href="#"> Lojas Oficiais </a>
           <a href="#"> Vender </a>
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
         <AccountOptions>
           <div className="carpromo">
             <CarIcon />
-            <h1>Financie seu proximo carro aqui</h1>
+            <h1>Financie seu próximo carro aqui</h1>
           </div>
           <div className="account_options">
             <a href="#"> Crie a sua conta </a>

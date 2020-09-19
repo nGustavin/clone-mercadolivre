@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   Container,
@@ -11,18 +11,18 @@ import {
   SupportIcon,
   ClockIcon,
   More,
-} from "./styles";
+} from './styles';
 
 const SellerInfo: React.FC = () => {
   return (
     <Container>
-      <Title>Informacoes sobre o vendedor</Title>
+      <Title>Informações sobre o vendedor</Title>
 
       <LocationCard>
         <LocationIcon />
         <div>
-          <p>Localizacao</p>
-          <strong>Sao paulo, sao paulo</strong>
+          <p>Localização</p>
+          <strong>São paulo, São paulo</strong>
         </div>
       </LocationCard>
       <ReputationCard>
@@ -36,7 +36,7 @@ const SellerInfo: React.FC = () => {
         <ReputationRow>
           <div>
             <strong>561</strong>
-            <span>Vendas nos ultimos cinco meses</span>
+            <span>Vendas nos últimos cinco meses</span>
           </div>
 
           <div>
@@ -50,7 +50,7 @@ const SellerInfo: React.FC = () => {
             <strong>
               <ClockIcon />
             </strong>
-            <span> Vendas nos ultimos quatro meses </span>
+            <span> Vendas nos últimos quatro meses </span>
           </div>
         </ReputationRow>
       </ReputationCard>
