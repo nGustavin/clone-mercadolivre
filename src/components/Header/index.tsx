@@ -1,5 +1,5 @@
-import React from "react";
-import HeaderLogo from "../../assets/headerLogo.png";
+import React from 'react';
+import HeaderLogo from '../../assets/headerLogo.png';
 import {
   Container,
   CepArea,
@@ -11,7 +11,7 @@ import {
   MapPin,
   Layout,
   SearchIcon,
-} from "./styles";
+} from './styles';
 
 const Header: React.FC = () => {
   return (
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
           <MapPin />
 
           <h3>Enviar para</h3>
-          <h1>Curitiba 81270-323</h1>
+          <h1>Brasil 9236932</h1>
         </CepArea>
 
         <InputArea>
